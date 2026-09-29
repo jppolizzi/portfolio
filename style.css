@@ -1,0 +1,6 @@
+body {
+  /* set line height to 1.5 times the 
+  font and use OS's UI font as website font
+  */
+  font: 100%/1.5 system-ui;
+}

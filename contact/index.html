@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <h1> Contact </h1>
     <nav>
-    <a href="../index.html">Home</a>
-    <a href="../contact/index.html">Contact</a>
-    <a href="../projects/index.html">Projects</a>
-    <a href="https://github.com/jppolizzi" target="_blank">Github Profile</a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+            <li><a href="../projects/index.html">Projects</a></li>
+            <li><a href="../resume/index.html">Resume</a></li>
+            <li><a href="https://github.com/jppolizzi" target="_blank">Github Profile</a></li>
+        </ul>
     </nav>
+    <form action="mailto:jppolizzi@ucsd.edu" method="POST" enctype="text/plain">
+        <br>
+        <label>
+               Email:<input name="email" type="email"> 
+               Subject:<input name="subject"> 
+               Message:<textarea name="body"></textarea>
+        </label>
+
+        <button type="submit">Send</button>
+    </form>
 </body>
 </html>

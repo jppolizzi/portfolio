@@ -26,7 +26,7 @@
     {
         "title": "DSC-240: Credit Default Detection with LightGBM ",
         "year": "2026",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "image": "images/mp3_results.png",
         "description": "DSC-240 project implementing a Light Gradient Boosting Model to predict credit default risk in a financial dataset. "
     },
     {

@@ -1,0 +1,74 @@
+[
+    {
+        "title": "DSC-209R Project 1: Expository Visualization",
+        "year": "2026",
+        "image": "images/budget-bake.png",
+        "description": "Exploring nutrition data and creating a compelling visual graphic that incorporates a data visualization graph, textual overview, and memory devices to help the viewer remember key insights."
+    },
+    {
+        "title": "DSC-209R Project 2: Deceptive Visualization",
+        "year": "2026",
+        "image": "images/honest-proposition.png",
+        "description": "An exercise in understanding Honest and Deceptive visualization and how to mitigate viewer mis-direction through the use of proper data visualization techniques."
+    },
+    {
+        "title": "CSE-291 Human Centered AI: Case Study in Tattoo Classification",
+        "year": "2026",
+        "image": "images/panel1.png",
+        "description": "Case Study following AI tattoo Classification system and incorporating Human Centered AI always-on principles."
+    },
+    {
+        "title": "DSC-245 Causal Discovery: Causation of Phytoplankton Blooms",
+        "year": "2026",
+        "image": "images/cd-nod.png",
+        "description": "Understanding Sea Surface Temperate, Sunlight exposer, and Mixed Layer Depth effects on Spatial and Temporal Phytoplankton Bloom patterns in the North Atlantic Current System. "
+    },
+    {
+        "title": "DSC-240: Credit Default Detection with LightGBM ",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "DSC-240 project implementing a Light Gradient Boosting Model to predict credit default risk in a financial dataset. "
+    },
+    {
+        "title": "DSC-204A Chord Implementation",
+        "year": "2025",
+        "image": "images/chord.png",
+        "description": "Implement a chord and ring algorithms communication."
+    },
+    {
+        "title": "DSC-202 Data Management: Cinescope",
+        "year": "2025",
+        "image": "images/cs-g3.png",
+        "description": "Cinescope database query machine for movies, genre, and actor associations. Front-end webpage with postgres backend and integrated neo4j."
+    },
+    {
+        "title": "DSC-210 Linear Algebra: Music Supply Recommendation System",
+        "year": "2024",
+        "image": "images/recommendation1.png",
+        "description": "Evaluating: Singular Value Decomposition (SVD), Bayesian Personalized Ranking (BPR), and Transformer based Recommendation (Bert4Rec) models for music recommendation systems."
+    },
+    {
+        "title": "UE4 HPWREN Sensors and Camera Viewer",
+        "year" : "2020",
+        "image": "images/bm-1.png",
+        "description": "Data Visualization project to intake live HPWREN sensor and camera data streams using Unreal Engine 4. The project was designed to visualize real-time environmental data in a 3D environment for research purposes."
+    },
+    {
+        "title": "Covid-19 Report Your Symptoms",
+        "year" : "2020",
+        "image": "images/covid-19-rys.jpg",
+        "description": "Covid-19 Report Your Symptoms San Diego County visualizations. Led by Ilkay Altintas, the data was taken for weekly symptoms reporting pages. I converted the data to use OpenANTZ to generate data glyphs."
+    },
+    {
+        "title": "FuturePatient V2",
+        "year": "2020",
+        "image": "images/fp_v2.png",
+        "description": "Refactor Future Patient from C++ into Python and Jupyter Notebooks for the CalIT2 VROOM Wall visualization system"
+    },
+    {
+        "title": "SunCAVE",
+        "year" : "2017",
+        "image": "images/suncaveluxor3.jpg",
+        "description": "The SunCAVE is a 360-degree, virtual reality space. 70 3D stereo ultra-high definition 4K panels driven by 70 Nvidia 1080 GPUs. The 500 megapixel display tilts at both the top and the bottom for an encompassing experience that gives the space a sphere-like appearance. "
+    }
+]

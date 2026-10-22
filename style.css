@@ -78,10 +78,30 @@ button[type="submit"] {
   gap: 1em;
 }
 
+.projects article > a {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 2;
+  gap: 1em;
+  color: inherit;
+  text-decoration: none;
+}
+
 .projects article img {
   width: 100%;
   height: 12em;
   object-fit: contain;
+}
+
+.projects article p {
+  margin: 0;
+}
+
+.project-year {
+  font-family: Baskerville, serif;
+  font-variant-numeric: oldstyle-nums;
+  color: gray;
+  margin-top: 0.5em;
 }
 
 .projects article h2 {
@@ -129,3 +149,63 @@ label.color-scheme select {
   font-size: 1.5rem;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  flex-shrink: 0;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+.legend {
+  flex: 1;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid gray;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.legend .swatch {
+  display: inline-block;
+  aspect-ratio: 1 / 1;
+  width: 1em;
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+path {
+  transition: 300ms;
+}
+
+.selected {
+  --color: oklch(66.021% 0.30639 326.524) !important;
+
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+path {
+  cursor: pointer;
+}

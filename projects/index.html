@@ -6,8 +6,21 @@
     <title>Projects</title>
     <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
     <h1 class ="projects-title">Projects</h1> 
+    <div class="container">
+        <svg id="projects-pie-plot" viewBox="-50 -50 100 100"></svg>
+        <ul class="legend"></ul>
+    </div>
+    <input
+      class="searchBar"
+      type="search"
+      aria-label="Search projects"
+      placeholder="🔍 Search projects…"
+    />
+    <button class="clear-search" type="button">Clear</button>
+
     <div class="projects">
         <script src="../global.js" type="module"></script>
         <script src="projects.js" type="module"></script>

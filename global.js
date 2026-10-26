@@ -1,9 +1,6 @@
 console.log('IT\'S ALIVE!');
 
-const BASE_PATH = 
-  location.hostname === 'localhost' || location.hostname === '127.0.0.1'
-    ? '/portfolio/portfolio/'
-    : '/portfolio/';
+const BASE_PATH = '/portfolio/';
 
 function $$(selector, context = document) {
     return Array.from(context.querySelectorAll(selector));
@@ -97,10 +94,17 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
         const article = document.createElement('article');
 
         const imgSrc = project.image.startsWith('http') ? project.image : `${BASE_PATH}${project.image}`;
+        const title = `<h3>${project.title}</h3>`;
+        const img = `<img src="${imgSrc}" alt="${project.title}">`;
+        const header = project.url
+            ? `<a href="${project.url}" target="_blank" rel="noopener">${title}${img}</a>`
+            : `${title}${img}`;
         article.innerHTML = `
-            <h3>${project.title}</h3>
-            <img src="${imgSrc}" alt="${project.title}">
-            <p>${project.description}</p>
+            ${header}
+            <div>
+                <p>${project.description}</p>
+                <p class="project-year">${project.year}</p>
+            </div>
         `;
         containerElement.appendChild(article);
     });

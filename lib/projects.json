@@ -1,5 +1,12 @@
 [
     {
+        "title": "DSC-209R Bikewatching",
+        "year": "2026",
+        "image": "images/bikes.png",
+        "url": "https://jppolizzi.github.io/bikewatching/",
+        "description": "Interactive map visualizing boston area bluebike stations and traffic flow."
+    },
+    {
         "title": "DSC-209R Project 1: Expository Visualization",
         "year": "2026",
         "image": "images/budget-bake.png",

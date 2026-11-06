@@ -78,7 +78,7 @@
         "title": "FuturePatient V2",
         "year": "2020",
         "image": "images/fp_v2.png",
-        "description": "Refactor Future Patient from C++ into Python and Jupyter Notebooks for the CalIT2 VROOM Wall visualization system"
+        "description": "Refactor Future Patient from C++ into Python and Jupyter Notebooks for the CalIT2 VROOM Wall visualization system."
     },
     {
         "title": "SunCAVE",

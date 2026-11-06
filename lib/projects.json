@@ -14,17 +14,17 @@
         "description": "Interactive map visualizing boston area bluebike stations and traffic flow."
     },
     {
-        "title": "DSC-209R Project 1: Expository Visualization",
-        "year": "2026",
-        "image": "images/budget-bake.png",
-        "description": "Exploring nutrition data and creating a compelling visual graphic that incorporates a data visualization graph, textual overview, and memory devices to help the viewer remember key insights."
-    },
-    {
         "title": "DSC-209R Project 2: Deceptive Visualization",
         "year": "2026",
         "image": "images/honest-proposition.png",
         "url": "https://jppolizzi.github.io/DSC-209R/Projects/project2/project2_report.html",
         "description": "An exercise in understanding Honest and Deceptive visualization and how to mitigate viewer mis-direction through the use of proper data visualization techniques."
+    },
+    {
+        "title": "DSC-209R Project 1: Expository Visualization",
+        "year": "2026",
+        "image": "images/budget-bake.png",
+        "description": "Exploring nutrition data and creating a compelling visual graphic that incorporates a data visualization graph, textual overview, and memory devices to help the viewer remember key insights."
     },
     {
         "title": "CSE-291 Human Centered AI: Case Study in Tattoo Classification",
